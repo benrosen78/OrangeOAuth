@@ -1,4 +1,4 @@
-# OrangeOAuth
+# [OrangeOAuth](https://cocoapods.org/pods/OrangeOAuth)
 
 [![Version](https://img.shields.io/cocoapods/v/OrangeOAuth.svg?style=flat)](http://cocoadocs.org/docsets/OrangeOAuth)
 [![License](https://img.shields.io/cocoapods/l/OrangeOAuth.svg?style=flat)](http://cocoadocs.org/docsets/OrangeOAuth)
@@ -8,7 +8,7 @@ Orangered's dead-simple drop-in Reddit OAuth library. This library was made to p
 
 ## Installation
 
-The easiest way to install OrangeOAuth is from Cocoapods. In your Podfile, add the line: `pod 'OrangeOAuth'`. Feel free to `try` as well, using the detailed example project.
+The easiest way to install OrangeOAuth is [from Cocoapods](https://cocoapods.org/pods/OrangeOAuth). In your Podfile, add the line: `pod 'OrangeOAuth'`. Feel free to `try` as well, using the detailed example project.
 
 If you would like to do it manually, simply add in the files `CARedditOAuth.h`, `CARedditOAuth.m`, `CARedditOAuthDelegate.h`, `CAWebViewController.h`, `CAWebViewController.m` and the resources found [here](Resources).
 
