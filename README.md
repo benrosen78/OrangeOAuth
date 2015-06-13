@@ -82,6 +82,7 @@ Now, add a URL type in the project under the `info` tab. Make the Identifier and
 > - Talked about in [this article](http://awkwardhare.com/post/121196006730/quick-take-on-ios-9-url-scheme-changes) and [in this WWDC session. ](https://developer.apple.com/videos/wwdc/2015/?id=703)
 > - If you are deploying your app in iOS 9, in the Info.plist add the key `LSApplicationQueriesSchemes` as an array and put `org-appextension-feature-password-management` and your bundle identifier in the array.
 ___
+
 ### That's it!
 The delegate methods will be called, and you will receive the OAuth code from Reddit. Your next steps are up to you! You can see what you can do with the authorization code [on Reddit's OAuth wiki.](https://github.com/reddit/reddit/wiki/oauth2#token-retrieval-code-flow)
 
