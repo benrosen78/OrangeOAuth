@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1D67DB23A168917B2BAC283 /* libPods-OrangeOAuth Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB8B2F37B648CA69A459921 /* libPods-OrangeOAuth Example.a */; };
+		B535E4ED1B2C8B9300F9D57E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B535E4EC1B2C8B9300F9D57E /* main.m */; };
+		B535E4F01B2C8B9300F9D57E /* ORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B535E4EF1B2C8B9300F9D57E /* ORAppDelegate.m */; };
+		B535E4F31B2C8B9300F9D57E /* ORViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B535E4F21B2C8B9300F9D57E /* ORViewController.m */; };
+		B535E4F61B2C8B9300F9D57E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B535E4F41B2C8B9300F9D57E /* Main.storyboard */; };
+		B535E4F81B2C8B9300F9D57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B535E4F71B2C8B9300F9D57E /* Assets.xcassets */; };
+		B535E4FB1B2C8B9300F9D57E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B535E4F91B2C8B9300F9D57E /* LaunchScreen.storyboard */; };
+		B535E5061B2C8B9300F9D57E /* OrangeOAuth_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B535E5051B2C8B9300F9D57E /* OrangeOAuth_ExampleTests.m */; };
+		B535E5111B2C8B9300F9D57E /* OrangeOAuth_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B535E5101B2C8B9300F9D57E /* OrangeOAuth_ExampleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B535E5021B2C8B9300F9D57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B535E4E01B2C8B9300F9D57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B535E4E71B2C8B9300F9D57E;
+			remoteInfo = "OrangeOAuth Example";
+		};
+		B535E50D1B2C8B9300F9D57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B535E4E01B2C8B9300F9D57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B535E4E71B2C8B9300F9D57E;
+			remoteInfo = "OrangeOAuth Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32F791ECA13687E4B6EC08FF /* Pods-OrangeOAuth Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrangeOAuth Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OrangeOAuth Example/Pods-OrangeOAuth Example.release.xcconfig"; sourceTree = "<group>"; };
+		749F7248D6F227C05D173C26 /* Pods-OrangeOAuth Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrangeOAuth Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrangeOAuth Example/Pods-OrangeOAuth Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8CB8B2F37B648CA69A459921 /* libPods-OrangeOAuth Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrangeOAuth Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B535E4E81B2C8B9300F9D57E /* OrangeOAuth Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OrangeOAuth Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B535E4EC1B2C8B9300F9D57E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B535E4EE1B2C8B9300F9D57E /* ORAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORAppDelegate.h; sourceTree = "<group>"; };
+		B535E4EF1B2C8B9300F9D57E /* ORAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORAppDelegate.m; sourceTree = "<group>"; };
+		B535E4F11B2C8B9300F9D57E /* ORViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORViewController.h; sourceTree = "<group>"; };
+		B535E4F21B2C8B9300F9D57E /* ORViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORViewController.m; sourceTree = "<group>"; };
+		B535E4F51B2C8B9300F9D57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B535E4F71B2C8B9300F9D57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B535E4FA1B2C8B9300F9D57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B535E4FC1B2C8B9300F9D57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B535E5011B2C8B9300F9D57E /* OrangeOAuth ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OrangeOAuth ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B535E5051B2C8B9300F9D57E /* OrangeOAuth_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrangeOAuth_ExampleTests.m; sourceTree = "<group>"; };
+		B535E5071B2C8B9300F9D57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B535E50C1B2C8B9300F9D57E /* OrangeOAuth ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OrangeOAuth ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B535E5101B2C8B9300F9D57E /* OrangeOAuth_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrangeOAuth_ExampleUITests.m; sourceTree = "<group>"; };
+		B535E5121B2C8B9300F9D57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B535E4E51B2C8B9300F9D57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D67DB23A168917B2BAC283 /* libPods-OrangeOAuth Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535E4FE1B2C8B9300F9D57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535E5091B2C8B9300F9D57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3747841F1FCE6B53FA4CA384 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CB8B2F37B648CA69A459921 /* libPods-OrangeOAuth Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B535E4DF1B2C8B9300F9D57E = {
+			isa = PBXGroup;
+			children = (
+				B535E4EA1B2C8B9300F9D57E /* OrangeOAuth Example */,
+				B535E5041B2C8B9300F9D57E /* OrangeOAuth ExampleTests */,
+				B535E50F1B2C8B9300F9D57E /* OrangeOAuth ExampleUITests */,
+				B535E4E91B2C8B9300F9D57E /* Products */,
+				E65E7432F0E088DC0BBB7647 /* Pods */,
+				3747841F1FCE6B53FA4CA384 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B535E4E91B2C8B9300F9D57E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B535E4E81B2C8B9300F9D57E /* OrangeOAuth Example.app */,
+				B535E5011B2C8B9300F9D57E /* OrangeOAuth ExampleTests.xctest */,
+				B535E50C1B2C8B9300F9D57E /* OrangeOAuth ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B535E4EA1B2C8B9300F9D57E /* OrangeOAuth Example */ = {
+			isa = PBXGroup;
+			children = (
+				B535E4EE1B2C8B9300F9D57E /* ORAppDelegate.h */,
+				B535E4EF1B2C8B9300F9D57E /* ORAppDelegate.m */,
+				B535E4F11B2C8B9300F9D57E /* ORViewController.h */,
+				B535E4F21B2C8B9300F9D57E /* ORViewController.m */,
+				B535E4F41B2C8B9300F9D57E /* Main.storyboard */,
+				B535E4F71B2C8B9300F9D57E /* Assets.xcassets */,
+				B535E4F91B2C8B9300F9D57E /* LaunchScreen.storyboard */,
+				B535E4FC1B2C8B9300F9D57E /* Info.plist */,
+				B535E4EB1B2C8B9300F9D57E /* Supporting Files */,
+			);
+			path = "OrangeOAuth Example";
+			sourceTree = "<group>";
+		};
+		B535E4EB1B2C8B9300F9D57E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B535E4EC1B2C8B9300F9D57E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B535E5041B2C8B9300F9D57E /* OrangeOAuth ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B535E5051B2C8B9300F9D57E /* OrangeOAuth_ExampleTests.m */,
+				B535E5071B2C8B9300F9D57E /* Info.plist */,
+			);
+			path = "OrangeOAuth ExampleTests";
+			sourceTree = "<group>";
+		};
+		B535E50F1B2C8B9300F9D57E /* OrangeOAuth ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B535E5101B2C8B9300F9D57E /* OrangeOAuth_ExampleUITests.m */,
+				B535E5121B2C8B9300F9D57E /* Info.plist */,
+			);
+			path = "OrangeOAuth ExampleUITests";
+			sourceTree = "<group>";
+		};
+		E65E7432F0E088DC0BBB7647 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				749F7248D6F227C05D173C26 /* Pods-OrangeOAuth Example.debug.xcconfig */,
+				32F791ECA13687E4B6EC08FF /* Pods-OrangeOAuth Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B535E4E71B2C8B9300F9D57E /* OrangeOAuth Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B535E5151B2C8B9300F9D57E /* Build configuration list for PBXNativeTarget "OrangeOAuth Example" */;
+			buildPhases = (
+				26C47AD53DA3351CE3C79C8C /* Check Pods Manifest.lock */,
+				B535E4E41B2C8B9300F9D57E /* Sources */,
+				B535E4E51B2C8B9300F9D57E /* Frameworks */,
+				B535E4E61B2C8B9300F9D57E /* Resources */,
+				58ACFBAF10CFC25CE09838CD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OrangeOAuth Example";
+			productName = "OrangeOAuth Example";
+			productReference = B535E4E81B2C8B9300F9D57E /* OrangeOAuth Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B535E5001B2C8B9300F9D57E /* OrangeOAuth ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B535E5181B2C8B9300F9D57E /* Build configuration list for PBXNativeTarget "OrangeOAuth ExampleTests" */;
+			buildPhases = (
+				B535E4FD1B2C8B9300F9D57E /* Sources */,
+				B535E4FE1B2C8B9300F9D57E /* Frameworks */,
+				B535E4FF1B2C8B9300F9D57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B535E5031B2C8B9300F9D57E /* PBXTargetDependency */,
+			);
+			name = "OrangeOAuth ExampleTests";
+			productName = "OrangeOAuth ExampleTests";
+			productReference = B535E5011B2C8B9300F9D57E /* OrangeOAuth ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B535E50B1B2C8B9300F9D57E /* OrangeOAuth ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B535E51B1B2C8B9300F9D57E /* Build configuration list for PBXNativeTarget "OrangeOAuth ExampleUITests" */;
+			buildPhases = (
+				B535E5081B2C8B9300F9D57E /* Sources */,
+				B535E5091B2C8B9300F9D57E /* Frameworks */,
+				B535E50A1B2C8B9300F9D57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B535E50E1B2C8B9300F9D57E /* PBXTargetDependency */,
+			);
+			name = "OrangeOAuth ExampleUITests";
+			productName = "OrangeOAuth ExampleUITests";
+			productReference = B535E50C1B2C8B9300F9D57E /* OrangeOAuth ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B535E4E01B2C8B9300F9D57E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Context Development";
+				TargetAttributes = {
+					B535E4E71B2C8B9300F9D57E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B535E5001B2C8B9300F9D57E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B535E4E71B2C8B9300F9D57E;
+					};
+					B535E50B1B2C8B9300F9D57E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B535E4E71B2C8B9300F9D57E;
+					};
+				};
+			};
+			buildConfigurationList = B535E4E31B2C8B9300F9D57E /* Build configuration list for PBXProject "OrangeOAuth Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B535E4DF1B2C8B9300F9D57E;
+			productRefGroup = B535E4E91B2C8B9300F9D57E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B535E4E71B2C8B9300F9D57E /* OrangeOAuth Example */,
+				B535E5001B2C8B9300F9D57E /* OrangeOAuth ExampleTests */,
+				B535E50B1B2C8B9300F9D57E /* OrangeOAuth ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B535E4E61B2C8B9300F9D57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B535E4FB1B2C8B9300F9D57E /* LaunchScreen.storyboard in Resources */,
+				B535E4F81B2C8B9300F9D57E /* Assets.xcassets in Resources */,
+				B535E4F61B2C8B9300F9D57E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535E4FF1B2C8B9300F9D57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535E50A1B2C8B9300F9D57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26C47AD53DA3351CE3C79C8C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58ACFBAF10CFC25CE09838CD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OrangeOAuth Example/Pods-OrangeOAuth Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B535E4E41B2C8B9300F9D57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B535E4F31B2C8B9300F9D57E /* ORViewController.m in Sources */,
+				B535E4F01B2C8B9300F9D57E /* ORAppDelegate.m in Sources */,
+				B535E4ED1B2C8B9300F9D57E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535E4FD1B2C8B9300F9D57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B535E5061B2C8B9300F9D57E /* OrangeOAuth_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535E5081B2C8B9300F9D57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B535E5111B2C8B9300F9D57E /* OrangeOAuth_ExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B535E5031B2C8B9300F9D57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B535E4E71B2C8B9300F9D57E /* OrangeOAuth Example */;
+			targetProxy = B535E5021B2C8B9300F9D57E /* PBXContainerItemProxy */;
+		};
+		B535E50E1B2C8B9300F9D57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B535E4E71B2C8B9300F9D57E /* OrangeOAuth Example */;
+			targetProxy = B535E50D1B2C8B9300F9D57E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B535E4F41B2C8B9300F9D57E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B535E4F51B2C8B9300F9D57E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B535E4F91B2C8B9300F9D57E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B535E4FA1B2C8B9300F9D57E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B535E5131B2C8B9300F9D57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B535E5141B2C8B9300F9D57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B535E5161B2C8B9300F9D57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749F7248D6F227C05D173C26 /* Pods-OrangeOAuth Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "OrangeOAuth Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.contextdev.OrangeOAuth-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B535E5171B2C8B9300F9D57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F791ECA13687E4B6EC08FF /* Pods-OrangeOAuth Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "OrangeOAuth Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.contextdev.OrangeOAuth-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B535E5191B2C8B9300F9D57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OrangeOAuth ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.contextdev.OrangeOAuth-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangeOAuth Example.app/OrangeOAuth Example";
+			};
+			name = Debug;
+		};
+		B535E51A1B2C8B9300F9D57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OrangeOAuth ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.contextdev.OrangeOAuth-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangeOAuth Example.app/OrangeOAuth Example";
+			};
+			name = Release;
+		};
+		B535E51C1B2C8B9300F9D57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OrangeOAuth ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.contextdev.OrangeOAuth-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OrangeOAuth Example";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B535E51D1B2C8B9300F9D57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OrangeOAuth ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.contextdev.OrangeOAuth-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OrangeOAuth Example";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B535E4E31B2C8B9300F9D57E /* Build configuration list for PBXProject "OrangeOAuth Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535E5131B2C8B9300F9D57E /* Debug */,
+				B535E5141B2C8B9300F9D57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B535E5151B2C8B9300F9D57E /* Build configuration list for PBXNativeTarget "OrangeOAuth Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535E5161B2C8B9300F9D57E /* Debug */,
+				B535E5171B2C8B9300F9D57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B535E5181B2C8B9300F9D57E /* Build configuration list for PBXNativeTarget "OrangeOAuth ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535E5191B2C8B9300F9D57E /* Debug */,
+				B535E51A1B2C8B9300F9D57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B535E51B1B2C8B9300F9D57E /* Build configuration list for PBXNativeTarget "OrangeOAuth ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535E51C1B2C8B9300F9D57E /* Debug */,
+				B535E51D1B2C8B9300F9D57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B535E4E01B2C8B9300F9D57E /* Project object */;
+}

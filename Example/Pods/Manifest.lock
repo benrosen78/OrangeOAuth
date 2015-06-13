@@ -1,0 +1,13 @@
+PODS:
+  - 1PasswordExtension (1.2)
+  - OrangeOAuth (0.1):
+    - 1PasswordExtension (~> 1.2)
+
+DEPENDENCIES:
+  - OrangeOAuth (~> 0.1)
+
+SPEC CHECKSUMS:
+  1PasswordExtension: fcf300204bda5b5c78936dbb937a7d661f1ca796
+  OrangeOAuth: d7752062d4b958bad3e36d78351055ec8ddb03d2
+
+COCOAPODS: 0.36.4

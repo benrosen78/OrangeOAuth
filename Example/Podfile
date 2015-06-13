@@ -1,0 +1,3 @@
+target 'OrangeOAuth Example' do
+pod 'OrangeOAuth', '~> 0.1'
+end

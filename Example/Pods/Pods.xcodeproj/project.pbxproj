@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0015689226C1F7BEDEFA60B9 /* CAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF66AF05ACDA0891450F9FF /* CAWebViewController.m */; };
+		03F532321E633EF2E6FA5D9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8ECB2104FD52A0178C2E84 /* UIKit.framework */; };
+		098EF53C5E1F6BEE3A690D5C /* Pods-OrangeOAuth Example-1PasswordExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A5E2DBCB3426381EF70698 /* Pods-OrangeOAuth Example-1PasswordExtension-dummy.m */; };
+		19EC4BD33D45D008893AC472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D55E1B13DBC76A9CBE94BE /* Foundation.framework */; };
+		1EBB8E76418C0ADEDF7D9772 /* OnePasswordExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E40AD002AC0F54530ACE0214 /* OnePasswordExtension.m */; };
+		26A47F26AE8ED3C306BA9FDF /* CARedditOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 4415130B3DBF9FAD455830B9 /* CARedditOAuth.h */; };
+		2D0118306660E1FE79A1E9BB /* CARedditOAuthDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE954F0466E5027F59C1959 /* CARedditOAuthDelegate.h */; };
+		44C8D5869AA0CD70F2CE1DE7 /* OnePasswordExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 38288E7FD89D2A9421767E85 /* OnePasswordExtension.h */; };
+		4CC00CCCA20D52B12621B24A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D55E1B13DBC76A9CBE94BE /* Foundation.framework */; };
+		5C39DD86AE222326565A198A /* CARedditOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = E05933F1391242384192143D /* CARedditOAuth.m */; };
+		728EDA4BD140063E4E4B0DE5 /* Pods-OrangeOAuth Example-OrangeOAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA58736CE897195DA4A64E8 /* Pods-OrangeOAuth Example-OrangeOAuth-dummy.m */; };
+		AB497E0064FEC9AC0720E442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D55E1B13DBC76A9CBE94BE /* Foundation.framework */; };
+		CFEEDA1872A2F4D0AD6CEE79 /* CAWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 787AE9D85AB0DF287BF4EF42 /* CAWebViewController.h */; };
+		F9FA4F5DDF4B7131141BE317 /* Pods-OrangeOAuth Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2705514D7523C10A36C99C /* Pods-OrangeOAuth Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F7AD6A46D333D48CEB63F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64E0B5C8B0792554134BBBF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 949AB15A49074FD4872EF116;
+			remoteInfo = "Pods-OrangeOAuth Example-OrangeOAuth";
+		};
+		1CA4AA7CECA8BBF925E34079 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64E0B5C8B0792554134BBBF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 679223BA03C47F3834424272;
+			remoteInfo = "Pods-OrangeOAuth Example-1PasswordExtension";
+		};
+		76B5866FD9764336B350899B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64E0B5C8B0792554134BBBF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 679223BA03C47F3834424272;
+			remoteInfo = "Pods-OrangeOAuth Example-1PasswordExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08BB512090B01B446B265190 /* libPods-OrangeOAuth Example-1PasswordExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrangeOAuth Example-1PasswordExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1467BAC9A614EA9C4EE99560 /* onepassword-toolbar@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar@2x.png"; path = "Resources/onepassword-toolbar@2x.png"; sourceTree = "<group>"; };
+		1EE954F0466E5027F59C1959 /* CARedditOAuthDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CARedditOAuthDelegate.h; path = Classes/CARedditOAuthDelegate.h; sourceTree = "<group>"; };
+		291AB32DE20D2569BDB987B8 /* 1Password.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = 1Password.xcassets; sourceTree = "<group>"; };
+		2CFF2D83349A4D68D5BFBFE3 /* libPods-OrangeOAuth Example-OrangeOAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrangeOAuth Example-OrangeOAuth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC006C6A69E741616B5DBD7 /* leftarrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "leftarrow@3x.png"; path = "Resources/leftarrow@3x.png"; sourceTree = "<group>"; };
+		34A5E2DBCB3426381EF70698 /* Pods-OrangeOAuth Example-1PasswordExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrangeOAuth Example-1PasswordExtension-dummy.m"; sourceTree = "<group>"; };
+		38288E7FD89D2A9421767E85 /* OnePasswordExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OnePasswordExtension.h; sourceTree = "<group>"; };
+		3B6E3406B7560C574479CE14 /* rightarrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rightarrow.png; path = Resources/rightarrow.png; sourceTree = "<group>"; };
+		41C4EA1B4B85195378E968EB /* Pods-OrangeOAuth Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrangeOAuth Example-resources.sh"; sourceTree = "<group>"; };
+		4415130B3DBF9FAD455830B9 /* CARedditOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CARedditOAuth.h; path = Classes/CARedditOAuth.h; sourceTree = "<group>"; };
+		445C91F229666D6C8BB5EAF6 /* onepassword-toolbar@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar@3x.png"; path = "Resources/onepassword-toolbar@3x.png"; sourceTree = "<group>"; };
+		4BCC8EDC4248E1B6E09507B0 /* Pods-OrangeOAuth Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrangeOAuth Example-environment.h"; sourceTree = "<group>"; };
+		4C2705514D7523C10A36C99C /* Pods-OrangeOAuth Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrangeOAuth Example-dummy.m"; sourceTree = "<group>"; };
+		4C8B103D960AA7A7B569C4C2 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4F05F558FA212651DFB3F1A0 /* Pods-OrangeOAuth Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrangeOAuth Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BFDFD67CAFB3F4D06514FB5 /* Pods-OrangeOAuth Example-OrangeOAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrangeOAuth Example-OrangeOAuth-prefix.pch"; sourceTree = "<group>"; };
+		5C0D7FBC718E9370E3DDCC81 /* leftarrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = leftarrow.png; path = Resources/leftarrow.png; sourceTree = "<group>"; };
+		644EEC94057CE9F52915B4B5 /* rightarrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rightarrow@3x.png"; path = "Resources/rightarrow@3x.png"; sourceTree = "<group>"; };
+		787AE9D85AB0DF287BF4EF42 /* CAWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAWebViewController.h; path = Classes/CAWebViewController.h; sourceTree = "<group>"; };
+		789A024A8CB646386A4E1C87 /* Pods-OrangeOAuth Example-1PasswordExtension-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrangeOAuth Example-1PasswordExtension-Private.xcconfig"; sourceTree = "<group>"; };
+		7AB8A45D02C48F924862513C /* Pods-OrangeOAuth Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrangeOAuth Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		80AC12D7CD771C9CEB883582 /* Pods-OrangeOAuth Example-1PasswordExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrangeOAuth Example-1PasswordExtension-prefix.pch"; sourceTree = "<group>"; };
+		8CCCD3B8C797B10D1C394556 /* libPods-OrangeOAuth Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrangeOAuth Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6DE411B2399CA8630A1703 /* Pods-OrangeOAuth Example-OrangeOAuth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrangeOAuth Example-OrangeOAuth.xcconfig"; sourceTree = "<group>"; };
+		B8D55E1B13DBC76A9CBE94BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B962BF687220CA214B1E6D41 /* Pods-OrangeOAuth Example-1PasswordExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrangeOAuth Example-1PasswordExtension.xcconfig"; sourceTree = "<group>"; };
+		BFA8091D6909FB28B2D6C412 /* onepassword-toolbar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar.png"; path = "Resources/onepassword-toolbar.png"; sourceTree = "<group>"; };
+		CBA58736CE897195DA4A64E8 /* Pods-OrangeOAuth Example-OrangeOAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrangeOAuth Example-OrangeOAuth-dummy.m"; sourceTree = "<group>"; };
+		CDF66AF05ACDA0891450F9FF /* CAWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CAWebViewController.m; path = Classes/CAWebViewController.m; sourceTree = "<group>"; };
+		DCF759CEA86F3C4B5F9D8BBA /* leftarrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "leftarrow@2x.png"; path = "Resources/leftarrow@2x.png"; sourceTree = "<group>"; };
+		E05933F1391242384192143D /* CARedditOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CARedditOAuth.m; path = Classes/CARedditOAuth.m; sourceTree = "<group>"; };
+		E40AD002AC0F54530ACE0214 /* OnePasswordExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OnePasswordExtension.m; sourceTree = "<group>"; };
+		E5488A53EDB391EB96716DAD /* Pods-OrangeOAuth Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrangeOAuth Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EB8D725FC79BDFE7FB1EE478 /* Pods-OrangeOAuth Example-OrangeOAuth-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrangeOAuth Example-OrangeOAuth-Private.xcconfig"; sourceTree = "<group>"; };
+		F104222A83665B1C3C2BACC3 /* Pods-OrangeOAuth Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrangeOAuth Example.release.xcconfig"; sourceTree = "<group>"; };
+		F72878D279AAAEE70F711CAB /* rightarrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rightarrow@2x.png"; path = "Resources/rightarrow@2x.png"; sourceTree = "<group>"; };
+		FD8ECB2104FD52A0178C2E84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67A8F95D41FDEB5383AFD55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC00CCCA20D52B12621B24A /* Foundation.framework in Frameworks */,
+				03F532321E633EF2E6FA5D9C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA197B6974F5591AF42EE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB497E0064FEC9AC0720E442 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9EE7C22E1CDA84A0601FF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EC4BD33D45D008893AC472 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2629AC9BAEE94CD998E1BA0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2D940473984DA24214ECC87 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3557E3A5DC5DC10CB1E5CDD4 = {
+			isa = PBXGroup;
+			children = (
+				4C8B103D960AA7A7B569C4C2 /* Podfile */,
+				2629AC9BAEE94CD998E1BA0B /* Frameworks */,
+				744A02396E374F6B7A77CF60 /* Pods */,
+				65F2F48000E99E8C5D1B67E3 /* Products */,
+				5127E5AA209DECA06EC87ED6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3C39C666D8EE0EEBCCC41B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C0D7FBC718E9370E3DDCC81 /* leftarrow.png */,
+				DCF759CEA86F3C4B5F9D8BBA /* leftarrow@2x.png */,
+				2EC006C6A69E741616B5DBD7 /* leftarrow@3x.png */,
+				BFA8091D6909FB28B2D6C412 /* onepassword-toolbar.png */,
+				1467BAC9A614EA9C4EE99560 /* onepassword-toolbar@2x.png */,
+				445C91F229666D6C8BB5EAF6 /* onepassword-toolbar@3x.png */,
+				3B6E3406B7560C574479CE14 /* rightarrow.png */,
+				F72878D279AAAEE70F711CAB /* rightarrow@2x.png */,
+				644EEC94057CE9F52915B4B5 /* rightarrow@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5127E5AA209DECA06EC87ED6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F2C9DFE1BACBBF3169AEAD7 /* Pods-OrangeOAuth Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5AF03DB8525CA690B2937E0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D6DE411B2399CA8630A1703 /* Pods-OrangeOAuth Example-OrangeOAuth.xcconfig */,
+				EB8D725FC79BDFE7FB1EE478 /* Pods-OrangeOAuth Example-OrangeOAuth-Private.xcconfig */,
+				CBA58736CE897195DA4A64E8 /* Pods-OrangeOAuth Example-OrangeOAuth-dummy.m */,
+				5BFDFD67CAFB3F4D06514FB5 /* Pods-OrangeOAuth Example-OrangeOAuth-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-OrangeOAuth Example-OrangeOAuth";
+			sourceTree = "<group>";
+		};
+		65F2F48000E99E8C5D1B67E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CCCD3B8C797B10D1C394556 /* libPods-OrangeOAuth Example.a */,
+				08BB512090B01B446B265190 /* libPods-OrangeOAuth Example-1PasswordExtension.a */,
+				2CFF2D83349A4D68D5BFBFE3 /* libPods-OrangeOAuth Example-OrangeOAuth.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F2C9DFE1BACBBF3169AEAD7 /* Pods-OrangeOAuth Example */ = {
+			isa = PBXGroup;
+			children = (
+				4F05F558FA212651DFB3F1A0 /* Pods-OrangeOAuth Example-acknowledgements.markdown */,
+				7AB8A45D02C48F924862513C /* Pods-OrangeOAuth Example-acknowledgements.plist */,
+				4C2705514D7523C10A36C99C /* Pods-OrangeOAuth Example-dummy.m */,
+				4BCC8EDC4248E1B6E09507B0 /* Pods-OrangeOAuth Example-environment.h */,
+				41C4EA1B4B85195378E968EB /* Pods-OrangeOAuth Example-resources.sh */,
+				E5488A53EDB391EB96716DAD /* Pods-OrangeOAuth Example.debug.xcconfig */,
+				F104222A83665B1C3C2BACC3 /* Pods-OrangeOAuth Example.release.xcconfig */,
+			);
+			name = "Pods-OrangeOAuth Example";
+			path = "Target Support Files/Pods-OrangeOAuth Example";
+			sourceTree = "<group>";
+		};
+		744A02396E374F6B7A77CF60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D90EA00097B93DC4A42E3946 /* 1PasswordExtension */,
+				8013AB9BCED06EB0C8810DF4 /* OrangeOAuth */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7EDCA873773DB26F234E6AA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				291AB32DE20D2569BDB987B8 /* 1Password.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8013AB9BCED06EB0C8810DF4 /* OrangeOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				4415130B3DBF9FAD455830B9 /* CARedditOAuth.h */,
+				E05933F1391242384192143D /* CARedditOAuth.m */,
+				1EE954F0466E5027F59C1959 /* CARedditOAuthDelegate.h */,
+				787AE9D85AB0DF287BF4EF42 /* CAWebViewController.h */,
+				CDF66AF05ACDA0891450F9FF /* CAWebViewController.m */,
+				4C3C39C666D8EE0EEBCCC41B /* Resources */,
+				5AF03DB8525CA690B2937E0C /* Support Files */,
+			);
+			path = OrangeOAuth;
+			sourceTree = "<group>";
+		};
+		CB07138A55F777DF92643CD5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B962BF687220CA214B1E6D41 /* Pods-OrangeOAuth Example-1PasswordExtension.xcconfig */,
+				789A024A8CB646386A4E1C87 /* Pods-OrangeOAuth Example-1PasswordExtension-Private.xcconfig */,
+				34A5E2DBCB3426381EF70698 /* Pods-OrangeOAuth Example-1PasswordExtension-dummy.m */,
+				80AC12D7CD771C9CEB883582 /* Pods-OrangeOAuth Example-1PasswordExtension-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-OrangeOAuth Example-1PasswordExtension";
+			sourceTree = "<group>";
+		};
+		D90EA00097B93DC4A42E3946 /* 1PasswordExtension */ = {
+			isa = PBXGroup;
+			children = (
+				38288E7FD89D2A9421767E85 /* OnePasswordExtension.h */,
+				E40AD002AC0F54530ACE0214 /* OnePasswordExtension.m */,
+				7EDCA873773DB26F234E6AA4 /* Resources */,
+				CB07138A55F777DF92643CD5 /* Support Files */,
+			);
+			path = 1PasswordExtension;
+			sourceTree = "<group>";
+		};
+		E2D940473984DA24214ECC87 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B8D55E1B13DBC76A9CBE94BE /* Foundation.framework */,
+				FD8ECB2104FD52A0178C2E84 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BC6B93F9D210DD628405F55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A47F26AE8ED3C306BA9FDF /* CARedditOAuth.h in Headers */,
+				2D0118306660E1FE79A1E9BB /* CARedditOAuthDelegate.h in Headers */,
+				CFEEDA1872A2F4D0AD6CEE79 /* CAWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1007A8B5B6056A2DFA5B121 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C8D5869AA0CD70F2CE1DE7 /* OnePasswordExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		679223BA03C47F3834424272 /* Pods-OrangeOAuth Example-1PasswordExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576E069336ADD6F361E33211 /* Build configuration list for PBXNativeTarget "Pods-OrangeOAuth Example-1PasswordExtension" */;
+			buildPhases = (
+				2B3B91104C59B3DE4D9DA159 /* Sources */,
+				67A8F95D41FDEB5383AFD55F /* Frameworks */,
+				F1007A8B5B6056A2DFA5B121 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OrangeOAuth Example-1PasswordExtension";
+			productName = "Pods-OrangeOAuth Example-1PasswordExtension";
+			productReference = 08BB512090B01B446B265190 /* libPods-OrangeOAuth Example-1PasswordExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		949AB15A49074FD4872EF116 /* Pods-OrangeOAuth Example-OrangeOAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ADB58D0A7E2B7FF9A297555 /* Build configuration list for PBXNativeTarget "Pods-OrangeOAuth Example-OrangeOAuth" */;
+			buildPhases = (
+				923F062EF87F340D88CFFA97 /* Sources */,
+				6DA197B6974F5591AF42EE4E /* Frameworks */,
+				1BC6B93F9D210DD628405F55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63E5EE3B8AC6E511C73433D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-OrangeOAuth Example-OrangeOAuth";
+			productName = "Pods-OrangeOAuth Example-OrangeOAuth";
+			productReference = 2CFF2D83349A4D68D5BFBFE3 /* libPods-OrangeOAuth Example-OrangeOAuth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DEB5739091F510888F26E2AE /* Pods-OrangeOAuth Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F35E3EB5C69F4C019B435A9 /* Build configuration list for PBXNativeTarget "Pods-OrangeOAuth Example" */;
+			buildPhases = (
+				103CE22C10845B886A06DD8A /* Sources */,
+				A9EE7C22E1CDA84A0601FF59 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687CD439695BD1EC2E0609C4 /* PBXTargetDependency */,
+				F23F1410F99B547067606A7C /* PBXTargetDependency */,
+			);
+			name = "Pods-OrangeOAuth Example";
+			productName = "Pods-OrangeOAuth Example";
+			productReference = 8CCCD3B8C797B10D1C394556 /* libPods-OrangeOAuth Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64E0B5C8B0792554134BBBF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 4517FFB0B46461571E46FE08 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3557E3A5DC5DC10CB1E5CDD4;
+			productRefGroup = 65F2F48000E99E8C5D1B67E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEB5739091F510888F26E2AE /* Pods-OrangeOAuth Example */,
+				679223BA03C47F3834424272 /* Pods-OrangeOAuth Example-1PasswordExtension */,
+				949AB15A49074FD4872EF116 /* Pods-OrangeOAuth Example-OrangeOAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		103CE22C10845B886A06DD8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FA4F5DDF4B7131141BE317 /* Pods-OrangeOAuth Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3B91104C59B3DE4D9DA159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBB8E76418C0ADEDF7D9772 /* OnePasswordExtension.m in Sources */,
+				098EF53C5E1F6BEE3A690D5C /* Pods-OrangeOAuth Example-1PasswordExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923F062EF87F340D88CFFA97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C39DD86AE222326565A198A /* CARedditOAuth.m in Sources */,
+				0015689226C1F7BEDEFA60B9 /* CAWebViewController.m in Sources */,
+				728EDA4BD140063E4E4B0DE5 /* Pods-OrangeOAuth Example-OrangeOAuth-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63E5EE3B8AC6E511C73433D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OrangeOAuth Example-1PasswordExtension";
+			target = 679223BA03C47F3834424272 /* Pods-OrangeOAuth Example-1PasswordExtension */;
+			targetProxy = 76B5866FD9764336B350899B /* PBXContainerItemProxy */;
+		};
+		687CD439695BD1EC2E0609C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OrangeOAuth Example-1PasswordExtension";
+			target = 679223BA03C47F3834424272 /* Pods-OrangeOAuth Example-1PasswordExtension */;
+			targetProxy = 1CA4AA7CECA8BBF925E34079 /* PBXContainerItemProxy */;
+		};
+		F23F1410F99B547067606A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OrangeOAuth Example-OrangeOAuth";
+			target = 949AB15A49074FD4872EF116 /* Pods-OrangeOAuth Example-OrangeOAuth */;
+			targetProxy = 04F7AD6A46D333D48CEB63F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3620A62CD3EDF83D74787CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789A024A8CB646386A4E1C87 /* Pods-OrangeOAuth Example-1PasswordExtension-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OrangeOAuth Example-1PasswordExtension/Pods-OrangeOAuth Example-1PasswordExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		48DED564849BFDC75B86B0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8D725FC79BDFE7FB1EE478 /* Pods-OrangeOAuth Example-OrangeOAuth-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OrangeOAuth Example-OrangeOAuth/Pods-OrangeOAuth Example-OrangeOAuth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		873173B8DAA04292110F0F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE7CFFDE25E0574C756B0A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8D725FC79BDFE7FB1EE478 /* Pods-OrangeOAuth Example-OrangeOAuth-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OrangeOAuth Example-OrangeOAuth/Pods-OrangeOAuth Example-OrangeOAuth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D9D0597C5C9CDA0EFE863FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F104222A83665B1C3C2BACC3 /* Pods-OrangeOAuth Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DC0B204BED5E5D9DE7F6F1F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F1FFC15497AD3E909CD4FAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5488A53EDB391EB96716DAD /* Pods-OrangeOAuth Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F983F6FF10AB4B96F5A774B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789A024A8CB646386A4E1C87 /* Pods-OrangeOAuth Example-1PasswordExtension-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OrangeOAuth Example-1PasswordExtension/Pods-OrangeOAuth Example-1PasswordExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4517FFB0B46461571E46FE08 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0B204BED5E5D9DE7F6F1F2 /* Debug */,
+				873173B8DAA04292110F0F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F35E3EB5C69F4C019B435A9 /* Build configuration list for PBXNativeTarget "Pods-OrangeOAuth Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FFC15497AD3E909CD4FAE6 /* Debug */,
+				D9D0597C5C9CDA0EFE863FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		576E069336ADD6F361E33211 /* Build configuration list for PBXNativeTarget "Pods-OrangeOAuth Example-1PasswordExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3620A62CD3EDF83D74787CA2 /* Debug */,
+				F983F6FF10AB4B96F5A774B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ADB58D0A7E2B7FF9A297555 /* Build configuration list for PBXNativeTarget "Pods-OrangeOAuth Example-OrangeOAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DED564849BFDC75B86B0EC /* Debug */,
+				AE7CFFDE25E0574C756B0A13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64E0B5C8B0792554134BBBF7 /* Project object */;
+}
