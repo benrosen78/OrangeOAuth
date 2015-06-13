@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "OrangeOAuth"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Orangered's dead-simple drop-in Reddit OAuth library."
   s.homepage     = "https://github.com/contextapps/OrangeOAuth"
  
