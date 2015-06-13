@@ -72,6 +72,10 @@
     
     self.toolbarItems = toolbarItems;
     
+    // Set cancel button in the navigation controller.
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCamera target:self action:@selector(cancelPressed:)];
+    
     // Make sure the buttons are enabled/disabled properly.
     
     [self updateButtonStates];
