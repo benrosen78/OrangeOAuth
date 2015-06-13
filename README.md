@@ -1,5 +1,9 @@
 # OrangeOAuth
 
+[![Version](https://img.shields.io/cocoapods/v/OrangeOAuth.svg?style=flat)](http://cocoadocs.org/docsets/OrangeOAuth)
+[![License](https://img.shields.io/cocoapods/l/OrangeOAuth.svg?style=flat)](http://cocoadocs.org/docsets/OrangeOAuth)
+[![Platform](https://img.shields.io/cocoapods/p/OrangeOAuth.svg?style=flat)](http://cocoadocs.org/docsets/OrangeOAuth)
+
 Orangered's dead-simple drop-in Reddit OAuth library. This library was made to provide some much-needed simplification to Reddit OAuth usage. OrangeOAuth provides a sleek and straightforward solution for both OAuth and OnePassword support, all contained within its own attractive web view controller. This library was created from and made to conform to [Reddit's official specifications](https://github.com/reddit/reddit/wiki/OAuth2-iOS-Example).
 
 ## Installation
@@ -89,6 +93,7 @@ The delegate methods will be called, and you will receive the OAuth code from Re
 ## Author
 
 Context Apps, [https://github.com/contextapps](https://github.com/contextapps)
+
 Ben Rosen, [benrosen78@gmail.com](mailto:benrosen78@gmail.com)
 
 ## License
